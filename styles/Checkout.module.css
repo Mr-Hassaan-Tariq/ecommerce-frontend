@@ -1,0 +1,67 @@
+.checkout {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .checkout__header {
+    text-align: center;
+  }
+  
+  .checkout__body {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .checkout__items {
+    width: 50%;
+  }
+  
+  .checkout__summary {
+    width: 50%;
+  }
+  
+  .checkout__form {
+    width: 100%;
+  }
+  
+  .checkout__summary-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .checkout__summary-table th,
+  .checkout__summary-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .checkout__form input,
+  .checkout__form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .checkout__form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+  }
+  .input {
+    margin-bottom: 10px;
+  }
+
+  .subscription_label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust the margin based on your design */
+  }
+  
+  .input_radio {
+    margin-right: 5px; 
+    width: 5px;
+    border: 2px solid red;
+  }
+  .radio_div{
+    margin-bottom: 6px;
+  }

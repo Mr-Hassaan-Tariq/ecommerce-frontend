@@ -1,0 +1,38 @@
+.login {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  
+  .login__header {
+    text-align: center;
+  }
+  
+  .login__body {
+    padding: 20px;
+  }
+  
+  .login__body form {
+    margin-bottom: 20px;
+  }
+  
+  .login__body input,
+  .login__body button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login__body button {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .login__body a {
+    color: #000;
+    text-decoration: none;
+  }
+  .input{
+    margin-bottom: 6px;
+  }

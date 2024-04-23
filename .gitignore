@@ -1,0 +1,84 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/.env
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+public/images/arrow-right.svg
+public/images/account-icon.png
+public/images/arrow-right.svg
+public/images/arrow-right.svg
+public/images/arrow-right.svg
+public/images/arrow-right.svg
+public/images/back-light.gif
+public/images/arrow-right.svg
+public/images/backarrow.svg
+public/images/arrow-right.svg
+public/images/arrow-right.svg
+public/images/business-icon.png
+public/images/cancellation-icon.png
+public/images/cashdelivery.svg
+public/images/filters-banner-mobile.jpg
+public/images/filters-banner.jpg
+public/images/hamer-brand.jpg
+public/images/HDL.gif
+public/images/home-banner-one.jpg
+public/images/home-banner-three.jpg
+public/images/home-banner-two.jpg
+public/images/imd.jpg
+public/images/img-mobile-banner.jpg
+public/images/karcher-brand.jpg
+public/images/lcd.gif
+public/images/main-banner-back-light.jpg
+public/images/main-banner-hL-mobile.jpg
+public/images/main-banner-mobile.jpg
+public/images/meguuiars-brand.jpg
+public/images/mothers-brand.jpg
+public/images/mt.gif
+public/images/payments-icon.png
+public/images/return-replacement-icon.png
+public/images/sale-banner.jpg
+public/images/sale-mobile-bannner.jpg
+public/images/sehgal-logo.png
+public/images/sehgal-logo.png
+public/images/SEHGALMOTORS LOGO METALLIC yellow.png
+public/images/sehgal-logo.png
+public/images/speaker.gif
+public/images/WalletIcon.55ff087.svg
+public/images/verifyPhone.2d8706f.svg
+public/images/Transaction.0519591.svg
+public/images/shipping-icon.png
+public/images/sehgal-logo.png
+public/images/sehgal-logo.png
+public/images/arrow-right.svg
+public/images/cashdelivery.svg
+public/images/arrow-right.svg
+public/images/arrow-right.svg
+public/images/sehgal-logo.png

@@ -1,0 +1,36 @@
+.productListViewImg{
+    width: 200px;
+}
+
+.productListviewDesc{
+    width: 70%;
+    text-align: left;
+    margin: auto;
+}
+
+.productListviewAddtoCard{
+    margin: auto;
+}
+.productListviewAddtoCard button{
+    border:none;
+    background-color: rgb(29, 26, 26);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cardViewImg{
+    position: relative;
+
+}
+
+.cardViewAddtoCart{
+
+    position: absolute;
+    bottom: 18%;
+    z-index: 10;
+    left: 35%;
+    border-radius: 20px;
+    border-color:  rgb(29, 26, 26);
+    background-color: white;
+}

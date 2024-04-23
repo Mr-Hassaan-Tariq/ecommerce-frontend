@@ -1,0 +1,20 @@
+.viewLabelSelected{
+    text-decoration: underline;
+}
+
+.viewLabel{
+
+
+
+    cursor: pointer;
+    font-family:'inter';
+}
+
+
+.collectionFilter{
+    padding: 20px ;
+}
+.collectionSelect{
+    background-color: transparent ;
+    border-radius: 20px;
+}

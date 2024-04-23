@@ -1,0 +1,159 @@
+.topnav_header {
+    background: #e2941e;
+    /* padding: 5px; */
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.top_nav_dummy {
+    /* border: 2px solid red; */
+    background-color: black;
+
+}
+
+.shopping-cart {
+
+    position: relative;
+
+}
+
+
+.cart-items {
+
+    position: absolute;
+
+    top: 100%;
+
+    right: 0;
+
+    background-color: white;
+
+    border: 1px solid #ccc;
+
+    padding: 15px;
+
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+    z-index: 1000;
+
+}
+
+.cart {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart_items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cart-item img {
+    max-width: 50px;
+    height: auto;
+}
+
+.subtotal {
+    margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 23px;
+	padding: 0px 10px;
+    font-weight: 600;
+}
+.viewcart {
+    margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 16px;
+	padding: 0px 10px;
+    font-weight: 600;
+}
+
+.checkout {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f06b00;
+    justify-content: center;
+    width: 95%;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.return_to_shop_btn {
+    background-color: #f06b00;
+    width: 67%;
+    padding: 10px;
+    border-radius: 28px;
+    color: #fff;
+    text-align: center;
+}
+
+.flip_on_hover {
+    transition: transform 0.5s ease-in-out;
+    /* Add a smooth transition for better visual effect */
+}
+
+.flip_on_hover:hover {
+    transform: rotate(360deg);
+    /* Rotate the image 360 degrees on hover */
+}
+
+.Counter {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #000;
+
+}
+
+
+.Decrement,
+.Increment {
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+
+.Decrement:hover,
+.Increment:hover {
+    color: orange;
+
+}
+
+
+.Count {
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #343a40;
+
+
+
+    text-align: center;
+    border: none;
+    margin: 0 5px;
+    width: 40px;
+
+}
+.cart_controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align to the right side */
+    margin-top: 20px; /* Adjust the margin based on your design */
+  }
